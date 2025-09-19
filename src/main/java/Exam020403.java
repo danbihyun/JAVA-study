@@ -25,7 +25,7 @@ public class Exam020403 {
         System.out.println("2. 주민번호 앞 6자리: " + rrn);
         System.out.println("3. 전화번호: " + tel);
 
-        // scanner.close(); // 리소스 누수 경고(Resource leak)
+        scanner.close(); // 리소스 누수 경고(Resource leak)
 
     }
 
